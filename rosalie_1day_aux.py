@@ -96,7 +96,7 @@ print(sec_inp)
 rosalie_input  =np.hstack((rosalie_input, rosalie))
 
 
-no = 18
+no = 24# hours in advance
 print(len(rosalie_label))
 print(len(rosalie_label[no:len(rosalie_label)] ) )
 rosalie_label = rosalie_label[no:len(rosalie_label)]
